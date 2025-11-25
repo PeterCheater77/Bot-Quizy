@@ -7,6 +7,7 @@ from random import choice
 from dotenv import load_dotenv
 
 
+
 #pobieranie tokenu bota
 load_dotenv("token.env")
 TOKEN = os.getenv("DISCORD_TOKEN")
@@ -17,6 +18,7 @@ user_streaks = {}
 local_scores = {}
 active_quizes = {}
 server_quiz_mode = True
+
 
 
 #pobieranie pytań z plików txt
@@ -43,6 +45,7 @@ questions_science = load_questions("questions/science.txt")
 questions_math = load_questions("questions/math.txt")
 questions_arts = load_questions("questions/arts.txt")
 questions_sports = load_questions("questions/sports.txt")
+
 
 
 #tworzenie bazy danych
@@ -95,6 +98,7 @@ def set_waves(user_id: int, value: int):
     if value > record:
         c.execute("UPDATE points SET waves = ? WHERE user_id = ?", (value, user_id))
         conn.commit()
+
 
 
 #przyciski - quiz rankingowy i pytanie z wybranej kategorii
@@ -168,6 +172,7 @@ class buttons(discord.ui.View):
             await interaction.response.edit_message(embed=embed, view=None)
 
 
+
 #ustawienia bota
 class aclient(discord.Client):
     def __init__(self):
@@ -187,7 +192,8 @@ client = aclient()
 tree = app_commands.CommandTree(client)
 
 
-#rozpoczęcie quizu rankingowego
+
+#quiz rankingowy
 @tree.command(guild=discord.Object(id=1350416675761029121), name='quiz', description='Rozpoczyna quiz rankingowy')
 async def quiz(interaction: discord.Interaction):
     if active_quizes.get(interaction.user.id, False):
@@ -228,6 +234,7 @@ async def quiz(interaction: discord.Interaction):
 
     await interaction.followup.send(embed=embed, ephemeral=True)
     active_quizes[interaction.user.id] = False
+
 
 
 #jedno losowe pytanie z wybranej kategorii
@@ -289,6 +296,7 @@ async def category_quiz(interaction: discord.Interaction, kategoria: app_command
         color=discord.Color.from_str("#ffdd00"))
 
     await interaction.response.send_message(embed=embed, view=buttons(correct_answer, interaction.user.id, False), ephemeral=True)
+
 
 
 #quiz serwerowy - przyciski
@@ -399,6 +407,7 @@ async def server_quiz(interaction: discord.Interaction):
         return await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
+
 #zatrzymywanie quizu serwerowego
 @tree.command(guild=discord.Object(id=1350416675761029121), name="quiz-serwerowy-stop", description="Zatrzymuje wszystkie aktywne quizy serwerowe")
 @app_commands.default_permissions(manage_guild=True)
@@ -412,6 +421,8 @@ async def server_quiz_stop(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed, ephemeral=True)
     await asyncio.sleep(15)
     server_quiz_mode = True
+
+
 
 #maraton quizowy - przyciski
 class marathon_quiz_view(discord.ui.View):
@@ -557,6 +568,7 @@ async def marathon_quiz(interaction: discord.Interaction):
     await next_marathon_question(interaction, 1)
 
 
+
 #speedrun quizowy
 class speedrun_quiz_view(discord.ui.View):
     def __init__(self, correct_answer: bool, speedrun_data: dict, interaction: discord.Interaction):
@@ -655,6 +667,7 @@ async def quiz_speedrun(interaction: discord.Interaction):
     await next_speedrun_question(interaction, speedrun_data)
 
 
+
 #ranking punktów graczy
 @tree.command(guild=discord.Object(id=1350416675761029121), name="ranking", description="Pokazuje ranking graczy")
 async def ranking(interaction: discord.Interaction):
@@ -677,6 +690,7 @@ async def ranking(interaction: discord.Interaction):
                           description=top_ranked,
                           color=discord.Color.gold())
     await interaction.response.send_message(embed=embed, ephemeral=True)
+
 
 
 #resetowanie rankingu wybranego gracza
@@ -703,6 +717,7 @@ async def ranking_reset(interaction: discord.Interaction, uzytkownik: discord.Me
     await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
+
 #informacje na temat bota
 @tree.command(guild=discord.Object(id=1350416675761029121), name="info", description="Pokazuje wszystkie informacje na temat bota")
 async def info(interaction: discord.Interaction):
@@ -723,6 +738,7 @@ async def info(interaction: discord.Interaction):
         color=discord.Color.from_str("#a8ffd9"))
 
     await interaction.response.send_message(embed=embed, ephemeral=True)
+
 
 
 #błędy
