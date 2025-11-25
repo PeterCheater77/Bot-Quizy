@@ -1,0 +1,100 @@
+Napoleon Bonaparte był cesarzem Francji.|True
+Rzym upadł w 476 roku naszej ery.|True
+Bitwa pod Grunwaldem miała miejsce w 1410 roku.|True
+Wikingowie pochodzili z terenów dzisiejszej Hiszpanii.|False
+Rewolucja francuska rozpoczęła się w XVIII wieku.|True
+Pierwszym prezydentem USA był Abraham Lincoln.|False
+II wojna światowa zakończyła się w 1945 roku.|True
+Krzysztof Kolumb odkrył Amerykę w 1776 roku.|False
+Hans Frank był włoskim politykiem.|False
+Juliusz Cezar był cesarzem Rzymu.|False
+Polska odzyskała niepodległość w 1918 roku.|True
+Bitwa pod Waterloo zakończyła panowanie Napoleona.|True
+Zimna wojna to konflikt między USA a ZSRR.|True
+Rewolucja październikowa miała miejsce w Niemczech.|False
+Druga wojna światowa zaczęła się w 1939 roku.|True
+Jan Paweł II został papieżem w XX wieku.|True
+Pierwsza wojna światowa zakończyła się w 1939 roku.|False
+Król Artur był historycznym władcą Anglii.|False
+Bitwa pod Poitiers w 732 roku zatrzymała ekspansję Arabów w Europie.|True
+Książę Bolesław Chrobry został pierwszym koronowanym królem Polski.|True
+Pierwsze państwo polskie powstało w X wieku.|True
+Dynastia Piastów rządziła Polską do XIV wieku.|True
+Bitwa pod Legnicą w 1241 roku była starciem z Mongołami.|True
+Cesarz Teodozjusz I ogłosił chrześcijaństwo religią państwową w Rzymie.|True
+Starożytni Fenicjanie byli znani z żeglarstwa i handlu.|True
+Powstanie Chmielnickiego miało miejsce w XVII wieku.|True
+Rewolucja lutowa w Rosji obaliła cara Mikołaja II.|True
+Bitwa pod Sekigaharą w 1600 roku zjednoczyła Japonię.|True
+Zamach stanu Juliusza Cezara miał miejsce w 44 roku p.n.e.|True
+Powstanie styczniowe w Polsce miało miejsce w 1863 roku.|True
+Wojny diadochów były walkami o sukcesję po Aleksandrze Wielkim.|True
+Upadek Konstantynopola w 1453 roku zakończył istnienie Cesarstwa Bizantyjskiego.|True
+Cesarstwo Maurjów istniało w Indiach w III wieku p.n.e.|True
+Bitwa pod Maratonem odbyła się w 490 roku p.n.e.|True
+Powstanie listopadowe miało miejsce w 1830 roku.|True
+Cesarz Hadrian zbudował mur Hadriana w Brytanii.|True
+Powstanie warszawskie rozpoczęło się w sierpniu 1944 roku.|True
+Zjazd gnieźnieński w 1000 roku odbył się między Polską a Cesarstwem Niemieckim.|True
+Cesarz Konstantyn Wielki przeniósł stolicę Rzymu do Bizancjum.|True
+Bitwa pod Kurskiem była największą bitwą pancerną II wojny światowej.|True
+Powstanie kościuszkowskie wybuchło w 1794 roku.|True
+Cesarstwo Perskie istniało przed Aleksandrem Wielkim.|True
+Bitwa pod Lepanto w 1571 roku powstrzymała ekspansję Osmanów na Morzu Śródziemnym.|True
+Karol Wielki został koronowany na cesarza przez papieża Leona III.|True
+Rzymianie wprowadzili system dróg w całym imperium.|True
+Pierwsza wojna punicka odbyła się między Rzymem a Kartaginą.|True
+Bitwa pod Mohaczem w 1526 roku zakończyła niepodległość Węgier.|True
+Rewolucja amerykańska zakończyła się w 1783 roku.|True
+Rozpoczęcie reformacji przypisuje się Marcinowi Luterowi w 1517 roku.|True
+Upadek cesarstwa Majów nastąpił przed przybyciem Hiszpanów.|True
+Zawarcie Unii Lubelskiej w 1569 roku połączyło Polskę i Litwę.|True
+Powstanie wielkopolskie miało miejsce w 1918 roku.|True
+Wojny napoleońskie trwały w latach 1803-1815.|True
+Konfederacja barska była reakcją na ingerencję Rosji w Polsce.|True
+Bitwa pod Borodino była największym starciem w kampanii Napoleona w Rosji.|True
+Rozpad ZSRR nastąpił w 1991 roku.|True
+Bitwa pod Verdun w 1916 roku była jedną z najkrwawszych I wojny światowej.|True
+Cesarstwo Rzymskie Wschodnie istniało aż do XV wieku.|True
+Królowa Elżbieta I panowała w Anglii w XVIII wieku.|False
+Bitwa pod Waterloo odbyła się w 1700 roku.|False
+Rewolucja francuska zakończyła się w XVI wieku.|False
+Cesarz Aleksander Wielki żył w III wieku n.e.|False
+Wojna stuletnia rozpoczęła się w XV wieku.|False
+Bitwa pod Midway miała miejsce w Europie.|False
+Pierwszy król Polski panował w XII wieku.|False
+Upadek Konstantynopola nastąpił w XVI wieku.|False
+Cesarstwo Rzymskie Zachodnie przetrwało do XV wieku.|False
+Bitwa pod Sekigaharą była konfliktem w Chinach.|False
+Powstanie Chmielnickiego miało miejsce w XIX wieku.|False
+Bitwa pod Maratonem była starciem Rzymian z Kartaginą.|False
+Wojna krymska rozpoczęła się w XVII wieku.|False
+Cesarz Karol V panował w XVI wieku w Japonii.|False
+Bitwa pod Hastings odbyła się w XIII wieku.|False
+Rozpoczęcie reformacji miało miejsce w XVIII wieku.|False
+Upadek cesarstwa Majów nastąpił w XIX wieku.|False
+Zawarcie Unii Lubelskiej połączyło Polskę z Niemcami.|False
+Wojny napoleońskie trwały w XVIII wieku.|False
+Bitwa pod Borodino była starciem w Afryce.|False
+Rozpad ZSRR nastąpił w 1980 roku.|False
+Bitwa pod Iławą Pruską w średniowieczu nigdy nie miała miejsca.|False
+Wojna secesyjna w USA rozpoczęła się w XVII wieku.|False
+Powstanie krakowskie miało miejsce w XVI wieku.|False
+Zamach na arcyksięcia Ferdynanda w Sarajewie miał miejsce w XVIII wieku.|False
+Cesarz Wilhelm II panował w XVI wieku.|False
+Bitwa pod Trafalgarem była starciem w Azji.|False
+Rewolucja październikowa doprowadziła do powstania Cesarstwa Niemieckiego.|False
+Wojna wietnamska zakończyła się w XIX wieku.|False
+Cesarstwo Rzymskie Zachodnie przetrwało do XIX wieku.|False
+Bitwa pod Stalingradem miała miejsce w I wojnie światowej.|False
+Wojna siedmioletnia trwała w XIX wieku.|False
+Upadek dynastii Ming nastąpił w XX wieku.|False
+Bitwa pod Midway była starciem w Europie.|False
+Powstanie listopadowe zakończyło się sukcesem Polaków.|False
+Konfederacja amerykańska istniała w XVII wieku.|False
+Bitwa pod Austerlitz odbyła się w XVIII wieku.|False
+Rozwój imperium Osmańskiego rozpoczął się w XX wieku.|False
+Bitwa pod Manzikert w 1071 roku odbyła się w Afryce.|False
+Wojny perskie toczyły się w III wieku n.e.|False
+Powstanie styczniowe zakończyło się sukcesem Polaków.|False
+Zjazd wiedeński w 1815 roku miał miejsce w Paryżu.|False
