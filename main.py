@@ -557,7 +557,7 @@ async def marathon_quiz(interaction: discord.Interaction):
     await next_marathon_question(interaction, 1)
 
 
-#speedrun quizowy ###
+#speedrun quizowy
 class speedrun_quiz_view(discord.ui.View):
     def __init__(self, correct_answer: bool, speedrun_data: dict, interaction: discord.Interaction):
         super().__init__(timeout=8)
@@ -587,7 +587,7 @@ class speedrun_quiz_view(discord.ui.View):
                                   color=discord.Color.from_str("#c71616"))
 
         await interaction.response.edit_message(embed=embed, view=None)
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(0.2)
         await next_speedrun_question(self.interaction, self.data)
 
 
@@ -653,8 +653,6 @@ async def quiz_speedrun(interaction: discord.Interaction):
 
     asyncio.create_task(countdown())
     await next_speedrun_question(interaction, speedrun_data)
-
-    
 
 
 #ranking punktów graczy
