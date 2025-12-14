@@ -205,8 +205,9 @@ class SpeedrunQuizView(BaseQuizView):
     def __init__(self, correct_answer: bool, interaction: Interaction, speedrun_data: dict):
         super().__init__(correct_answer, interaction, timeout=8)
         self.data = speedrun_data
+        self.speedrun_streaks = st.speedrun_streaks
 
-    #gracz nie zdążył odpowiedzieć w ciągu 15 sekund
+    #gracz nie zdążył odpowiedzieć w ciągu 8 sekund
     async def on_timeout(self):
         from quiz_logic import next_speedrun_question
 
@@ -218,6 +219,7 @@ class SpeedrunQuizView(BaseQuizView):
             self.stop()
             return
 
+        self.speedrun_streaks[self.user.id] = 0
         self.data["question_active"] = False
         self.stop()
         await next_speedrun_question(self.interaction, self.data)
@@ -245,13 +247,23 @@ class SpeedrunQuizView(BaseQuizView):
 
         #gracz odpowiedział poprawnie
         if chosen_answer == self.correct_answer:
+            self.speedrun_streaks[self.user.id] = self.speedrun_streaks.get(self.user.id, 0) + 1
             self.data["score"] += 1
+            bonus_text = ""
+
+            #bonusowe 2 sekundy speedrunu za 3 poprawne odpowiedzi z rzędu
+            if self.speedrun_streaks[self.user.id] == 3:
+                self.speedrun_streaks[self.user.id] = 0
+                self.data.get["time_left"] = self.data.get("time_left", 0) + 2
+                bonus_text = "\n🔥 Bonus **+2 sekundy** za 3 poprawne odpowiedzi z rzędu!\n"
+
             embed = Embed(
-                description="✅ Poprawna odpowiedź!",
+                description=f"✅ Poprawna odpowiedź!{bonus_text}",
                 color=Color.from_str("#22c716"))
 
         #gracz odpowiedział niepoprawnie
         else:
+            self.speedrun_streaks[self.user.id] = 0
             embed = Embed(
                 description="❌ Niestety jest to zła odpowiedź!",
                 color=Color.from_str("#c71616"))

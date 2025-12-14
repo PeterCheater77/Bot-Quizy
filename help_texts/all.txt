@@ -1,25 +1,25 @@
-• **/pomoc** - pokazuje informacje o wszystkich komendach lub o wybranej komendzie
+• **/pomoc** — pokazuje informacje o wszystkich komendach lub o wybranej komendzie
 
-• **/quiz [tryb]** - startuje wybrany przez Ciebie tryb quizowy:
+• **/quiz [tryb]** — startuje wybrany przez Ciebie tryb quizowy:
 
-**→** rankingowy - dostajesz 10 pytań, na każde masz 10 sekund. Zdobyte punkty są dodawane do twojej łącznej puli punktów i możesz konkurować z innymi graczami o najlepszy wynik pod /ranking!
+**→** rankingowy — dostajesz 10 pytań, na każde masz 10 sekund. Zdobyte punkty są dodawane do twojej łącznej puli punktów i możesz konkurować z innymi graczami o najlepszy wynik pod /ranking!
 
-**→** maraton - odpowiadasz tak długo, aż się pomylisz. Masz 15 sekund na każde pytanie. Twój rekord poziomów się zapisuje + za 100 poziomów z rzędu dostajesz rangę *Mistrz Quizów*!
+**→** maraton — odpowiadasz tak długo, aż się pomylisz. Masz 15 sekund na każde pytanie. Twój rekord poziomów się zapisuje + za osiągnięcie progów 10, 20, 40, 60, 80 poziomów dostajesz punkty rankingowe!
 
-**→** speedrun - odpowiadasz na jak najwięcej pytań w 60 sekund. Jeśli nie odpowiesz w 8 sekund, dostajesz kolejne pytanie. Twój rekord poprawnych odpowiedzi się zapisuje.
+**→** speedrun — odpowiadasz na jak najwięcej pytań w 60 sekund. Jeśli nie odpowiesz w 8 sekund, dostajesz kolejne pytanie. Twój rekord poprawnych odpowiedzi się zapisuje.
 
-**→** tryb ryzyko - na początku wybierasz o ile punktów rankingowych grasz, ale musisz mieć minimum tyle. Potem dostajesz 10 pytań, na każde masz 10 sekund. Jeśli odpowiesz chociaż raz źle - przegrywasz zakład, a jeśli wygrasz - zdobywasz punkty! (możesz grać tylko 3 razy/godzinę)
+**→** tryb ryzyko — na początku wybierasz o ile punktów rankingowych grasz, ale musisz mieć minimum tyle. Potem dostajesz 10 pytań, na każde masz 10 sekund. Jeśli odpowiesz chociaż raz źle — przegrywasz zakład, a jeśli wygrasz — zdobywasz punkty! (możesz grać tylko 3 razy/godzinę)
 
-• **/pytanie-kategoria [kategoria]** - dostajesz jedno pytanie z wybranej kategorii
+• **/pytanie-kategoria [kategoria]** — dostajesz jedno pytanie z wybranej kategorii
 
-• **/pytanie-dzienne** - dostajesz jedno pytanie, na które możesz odpowiedzieć tylko raz dziennie, aby zwiększyć swoją passę i zdobywać punkty rankingowe
+• **/pytanie-dzienne** — dostajesz jedno pytanie, na które możesz odpowiedzieć tylko raz dziennie, aby zwiększyć swoją passę i zdobywać punkty rankingowe
 
-• **/gracz-info [użytkownik]** - pokazuje informacje quizowe wybranego użytkownika
+• **/gracz-info [użytkownik]** — pokazuje informacje quizowe wybranego użytkownika
 
-• **/ranking** - wyświetla listę 5 najlepszych graczy według punktów rankingowych, rekordów maratonu i speedrunu quizowego oraz liczby zagranych quizów
+• **/ranking** — wyświetla listę 5 najlepszych graczy według punktów rankingowych, rekordów maratonu i speedrunu quizowego oraz liczby zagranych quizów
 
-• **/ranking-ustaw [użytkownik] [opcja i wartość]** - zmienia cały ranking wybranego użytkownika na wartości, które wybierzesz (komenda tylko dla administratorów).
+• **/ranking-ustaw [użytkownik] [opcja i wartość]** — zmienia cały ranking wybranego użytkownika na wartości, które wybierzesz (komenda tylko dla administratorów).
 
-• **/quiz-serwerowy** - rozpoczyna quiz dla wszystkich użytkowników serwera, który składa się z 10 pytań, z których na każde masz 15 sekund. Zebrane punkty nie zapisują się, ale są widoczne w mini-rankingu na końcu quizu. (komenda tylko dla administratorów).
+• **/quiz-serwerowy** — rozpoczyna quiz dla wszystkich użytkowników serwera, który składa się z 10 pytań, z których na każde masz 15 sekund. Zebrane punkty nie zapisują się, ale są widoczne w mini-rankingu na końcu quizu. (komenda tylko dla administratorów).
 
-• **/quiz-serwerowy-stop** - zatrzymuje wszystkie aktywne quizy serwerowe i uniemożliwia startowanie nowego przez 15 sekund (komenda tylko dla administratorów).
+• **/quiz-serwerowy-stop** — zatrzymuje wszystkie aktywne quizy serwerowe i uniemożliwia startowanie nowego przez 15 sekund (komenda tylko dla administratorów).
