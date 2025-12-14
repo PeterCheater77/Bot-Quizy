@@ -4,7 +4,7 @@
 
 **→** rankingowy — dostajesz 10 pytań, na każde masz 10 sekund. Zdobyte punkty są dodawane do twojej łącznej puli punktów i możesz konkurować z innymi graczami o najlepszy wynik pod /ranking!
 
-**→** maraton — odpowiadasz tak długo, aż się pomylisz. Masz 15 sekund na każde pytanie. Twój rekord poziomów się zapisuje + za osiągnięcie progów 10, 20, 40, 60, 80 poziomów dostajesz punkty rankingowe!
+**→** maraton — odpowiadasz tak długo, aż się pomylisz. Masz 15 sekund na każde pytanie. Twój rekord poziomów się zapisuje. Za osiągnięcie progów 10, 20, 40, 60, 80 poziomów dostajesz punkty rankingowe, a za 100 poziomów — rangę "Mistrz Quizów"!
 
 **→** speedrun — odpowiadasz na jak najwięcej pytań w 60 sekund. Jeśli nie odpowiesz w 8 sekund, dostajesz kolejne pytanie. Twój rekord poprawnych odpowiedzi się zapisuje.
 
