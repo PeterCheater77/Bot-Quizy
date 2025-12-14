@@ -16,7 +16,7 @@
 
 • **/gracz-info [użytkownik]** - pokazuje informacje quizowe wybranego użytkownika
 
-• **/ranking** - wyświetla listę 5 najlepszych graczy według punktów rankingowych, rekordów maratonu i speedrunu quizowego oraz ilości zagranych quizów
+• **/ranking** - wyświetla listę 5 najlepszych graczy według punktów rankingowych, rekordów maratonu i speedrunu quizowego oraz liczby zagranych quizów
 
 • **/ranking-ustaw [użytkownik] [opcja i wartość]** - zmienia cały ranking wybranego użytkownika na wartości, które wybierzesz (komenda tylko dla administratorów).
 

@@ -4,13 +4,14 @@ from threading import RLock
 from traceback import print_exc
 from time import time
 from functools import wraps
-from discord import Embed, Color
+from discord import Interaction, Embed, Color
 from os import getenv
 from dotenv import load_dotenv
 from random import choice
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+import state as st
 
 ######################################################################################
 
@@ -72,7 +73,7 @@ def global_cooldown(seconds: int = 3):
             if now - last_used < seconds:
                 wait_time = seconds - (now - last_used)
                 embed = Embed(
-                    description=f"⏳ Poczekaj {wait_time:.1f}s przed ponownym użyciem tej komendy!",
+                    description=f"⏳ Poczekaj {wait_time:.1f}s przed ponownym użyciem komendy!",
                     color=Color.from_str("#961212"))
                 return await interaction.response.send_message(embed=embed, ephemeral=True)
 
@@ -282,7 +283,7 @@ def get_player_info(user_id: int, user_name: str, color: Color):
         description=f"Punkty rankingowe: **{points} punktów**\n"
                     f"Rekord maratonu quizowego: **{marathon_record} poziomów**\n"
                     f"Rekord speedrunu quizowego: **{speedrun_record} poprawnych odpowiedzi**\n"
-                    f"Ilość zagranych quizów: **{played_quizzes}**\n"
+                    f"Liczba zagranych quizów: **{played_quizzes}**\n"
                     f"Aktualna passa odbierania pytania dziennego: **{daily_streak} dni**",
         color=color)
 
@@ -325,7 +326,7 @@ def ranking_embed():
     else:
         top_speedrun = f"{long_line}\nBrak danych..."
 
-    #ilości zagranych quizów
+    #liczby zagranych quizów
     filtered_quizzes = [r for r in quizzes if r[1] > 0]
     if filtered_quizzes:
         top_quizzes = "\n".join([
@@ -346,7 +347,7 @@ def ranking_embed():
                     f"**⏳ Rekord speedrunu:**\n"
                     f"{top_speedrun}\n"
                     f"{long_line}\n\n"
-                    f"**📑 Ilość zagranych quizów:**\n"
+                    f"**📑 Liczba zagranych quizów:**\n"
                     f"{top_quizzes}\n"
                     f"{long_line}",
         color=Color.gold())
@@ -395,12 +396,12 @@ def set_ranking(user_id: int, points_value: int = None, marathon_value: int = No
          {"Punkty rankingowe": points_value,
          "Rekord maratonu quizowego": marathon_value,
          "Rekord speedrunu quizowego": speedrun_value,
-         "Ilość zagranych quizów": quizzes_value}.items() if v is not None},
+         "Liczba zagranych quizów": quizzes_value}.items() if v is not None},
         None,
         {"Punkty rankingowe": old_points,
          "Rekord maratonu quizowego": old_marathon,
          "Rekord speedrunu quizowego": old_speedrun,
-         "Ilość zagranych quizów": old_quizzes})
+         "Liczba zagranych quizów": old_quizzes})
 
 
 #pobieranie opisów komend z plików txt

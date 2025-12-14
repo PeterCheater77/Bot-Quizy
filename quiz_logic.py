@@ -178,7 +178,7 @@ async def risk_quiz_bets(interaction: Interaction):
             description=f"Ile punktów rankingowych chcesz obstawić?\n\n"
                         f"Jeśli choć raz się pomylisz – **tracisz tyle ile obstawiłeś**.\n"
                         f"Jeśli odpowiesz na wszystkie 10 pytań poprawnie – wygrywasz!\n\n"
-                        f"Ilość pozostałych gier w trybie ryzyka: {3-risk_uses}",
+                        f"Ilość pozostałych gier w trybie ryzyka: **{3-risk_uses}**",
             color=Color.from_str("#f03043"))
         return await interaction.response.send_message(embed=embed, view=RiskQuizBetsView(interaction), ephemeral=True)
 
