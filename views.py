@@ -36,14 +36,14 @@ class BaseQuizView(ui.View):
 class RankedQuizView(BaseQuizView):
     def __init__(self, correct_answer: bool, interaction: Interaction):
         super().__init__(correct_answer, interaction, timeout=10)
-        self.user_streaks = st.user_streaks
+        self.ranked_streaks = st.ranked_streaks
 
     #gracz nie zdążył odpowiedzieć w ciągu 10 sekund
     async def on_timeout(self):
         if self.answered:
             return
 
-        self.user_streaks[self.user.id] = 0
+        self.ranked_streaks[self.user.id] = 0
         set_value(self.user.id, points=-1)
         self.stop()
         embed = Embed(
@@ -58,14 +58,14 @@ class RankedQuizView(BaseQuizView):
 
         #gracz odpowiedział poprawnie
         if chosen_answer == self.correct_answer:
-            self.user_streaks[self.user.id] = self.user_streaks.get(self.user.id, 0) + 1
+            self.ranked_streaks[self.user.id] = self.ranked_streaks.get(self.user.id, 0) + 1
             set_value(self.user.id, points=+1)
             bonus_text = ""
 
             #punkt bonusowy za 3 poprawne odpowiedzi z rzędu
-            if self.user_streaks[self.user.id] == 3:
+            if self.ranked_streaks[self.user.id] == 3:
                 set_value(self.user.id, points=+1)
-                self.user_streaks[self.user.id] = 0
+                self.ranked_streaks[self.user.id] = 0
                 bonus_text = "\n🔥 Bonus **+1 punkt** za 3 poprawne odpowiedzi z rzędu!\n"
 
             #gracz nie ma jeszcze passy 3 poprawnych odpowiedzi z rzędu
@@ -79,7 +79,7 @@ class RankedQuizView(BaseQuizView):
 
         #gracz odpowiedział niepoprawnie
         else:
-            self.user_streaks[self.user.id] = 0
+            self.ranked_streaks[self.user.id] = 0
             set_value(self.user.id, points=-1)
             self.stop()
             embed = Embed(

@@ -6,6 +6,6 @@
 
 • Rekord speedrunu quizowego
 
-• Ilość zagranych quizów
+• Liczbę zagranych quizów
 
 • Aktulną passę odbierania pytania dziennego

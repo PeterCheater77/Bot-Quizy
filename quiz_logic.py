@@ -46,7 +46,7 @@ async def quiz_start(interaction: Interaction, chosen_mode: str):
 
 #quiz rankingowy
 async def ranked_quiz(interaction: Interaction):
-    st.user_streaks[interaction.user.id] = 0
+    st.ranked_streaks[interaction.user.id] = 0
     embed = Embed(
         description="**Quiz rankingowy** za chwilę się rozpocznie!\nSkłada się z 10 pytań, z których na każde masz równo 10 sekund.\nZebrane punkty zapisują się pod /ranking.\nPrzygotuj się!",
         color=Color.from_str("#ff7b00"))
@@ -101,6 +101,7 @@ async def next_marathon_question(interaction: Interaction, wave: int):
 
 #speedrun quizowy
 async def speedrun_quiz(interaction: Interaction):
+    st.speedrun_streaks[interaction.user.id] = 0
     embed = Embed(
         description="**Speedrun quizowy** za chwilę się rozpocznie!\nMasz 60 sekund, aby odpowiedzieć na jak najwięcej pytań!\nPrzygotuj się!",
         color=Color.from_str("#b587ff"))
@@ -178,7 +179,7 @@ async def risk_quiz_bets(interaction: Interaction):
             description=f"Ile punktów rankingowych chcesz obstawić?\n\n"
                         f"Jeśli choć raz się pomylisz – **tracisz tyle ile obstawiłeś**.\n"
                         f"Jeśli odpowiesz na wszystkie 10 pytań poprawnie – wygrywasz!\n\n"
-                        f"Ilość pozostałych gier w trybie ryzyka: {3-risk_uses}",
+                        f"Ilość pozostałych gier w trybie ryzyka: **{3-risk_uses}**",
             color=Color.from_str("#f03043"))
         return await interaction.response.send_message(embed=embed, view=RiskQuizBetsView(interaction), ephemeral=True)
 
