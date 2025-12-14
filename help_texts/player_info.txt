@@ -1,0 +1,11 @@
+**Pokazuje informacje quizowe wybranego użytkownika:**
+
+• Łączne punkty rankingowe
+
+• Rekord maratonu quizowego
+
+• Rekord speedrunu quizowego
+
+• Ilość zagranych quizów
+
+• Aktulną passę odbierania pytania dziennego

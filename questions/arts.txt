@@ -1,0 +1,100 @@
+Winicjusz jest bohaterem drugoplanowym w książce „Quo Vadis”.|False
+Leonardo da Vinci namalował „Mona Lisę”.|True
+Pablo Picasso był przedstawicielem kubizmu.|True
+Fryderyk Chopin był francuskim malarzem.|False
+Salvador Dali był znany z surrealizmu.|True
+Opera to gatunek architektury.|False
+Styl barokowy był znany z prostoty i minimalizmu.|False
+Vincent van Gogh wyrzeźbił posąg Dawida.|False
+Michał Anioł był także rzeźbiarzem.|True
+Rembrandt pochodził z Holandii.|True
+Claude Monet był twórcą impresjonizmu.|True
+Andy Warhol tworzył dzieła w stylu pop-art.|True
+Pablo Neruda był słynnym malarzem hiszpańskim.|False
+Luwr znajduje się w Londynie.|False
+„Krzyk” to obraz Edvarda Muncha.|True
+Beethoven był znanym pisarzem romantycznym.|False
+„Dama z gronostajem” to obraz Leonarda da Vinci.|True
+Teatr grecki rozwinął się w średniowieczu.|False
+Jan Matejko był polskim kompozytorem.|False
+Banksy jest współczesnym artystą street artu.|True
+William Shakespeare napisał tragedię „Makbet”.|True
+Impresjonizm koncentrował się na uchwyceniu światła i chwili.|True
+Gustav Klimt stworzył obraz „Pocałunek”.|True
+Tango pochodzi z Argentyny.|True
+Stanisław Wyspiański był zarówno malarzem, jak i dramaturgiem.|True
+Symfonia to utwór muzyczny skomponowany zwykle na orkiestrę.|True
+Architektura gotycka słynie z witraży i strzelistych łuków.|True
+Johann Sebastian Bach tworzył muzykę barokową.|True
+Powieść „Lalka” została napisana przez Bolesława Prusa.|True
+Antoni Gaudí zaprojektował Sagradę Familię.|True
+Opera składa się z muzyki, śpiewu i elementów teatralnych.|True
+Michelangelo Caravaggio był mistrzem światłocienia.|True
+Henryk Sienkiewicz napisał „Potop”.|True
+Art déco charakteryzuje się geometrycznymi formami.|True
+Balet jest formą sztuki łączącą taniec i muzykę.|True
+Łuk triumfalny jest elementem architektury klasycznej.|True
+Norwid był poetą polskiego romantyzmu.|True
+„Złota jesień” to jeden z koncertów Vivaldiego.|True
+Akwarela to technika malarska oparta na wodnych farbach.|True
+Rzeźba to jedna z podstawowych dziedzin sztuk plastycznych.|True
+Fresk to malowidło wykonywane na mokrym tynku.|True
+James Joyce napisał „Ulissesa”.|True
+Opera „Carmen” została skomponowana przez Georgesa Bizeta.|True
+Roman Opałka tworzył dzieła składające się wyłącznie z liczb.|True
+Ekspresjonizm podkreślał silne emocje i subiektywność.|True
+Muzyka jazzowa narodziła się w Stanach Zjednoczonych.|True
+Bazylika św. Piotra jest przykładem architektury renesansowej i barokowej.|True
+Tadeusz Kantor tworzył teatr awangardowy.|True
+Akapela to śpiew bez akompaniamentu instrumentów.|True
+Powieść „Zbrodnia i kara” napisał Fiodor Dostojewski.|True
+Symfonia „Eroica” to dzieło Ludwiga van Beethovena.|True
+Origami to tradycyjna sztuka składania papieru z Japonii.|True
+Claude Debussy był kompozytorem impresjonistycznym.|True
+Cecylia Gallerani to bohaterka „Damy z gronostajem”.|True
+Wiersz biały nie posiada rymów.|True
+Malarstwo ikonowe jest mocno związane z tradycją wschodniego chrześcijaństwa.|True
+Hommage to forma artystycznego hołdu.|True
+Powieści science fiction również zaliczają się do literatury pięknej.|True
+Sztuka użytkowa łączy funkcjonalność z estetyką.|True
+Opera komiczna zawiera elementy humorystyczne.|True
+Pablo Picasso był średniowiecznym architektem.|False
+W balecie nie używa się muzyki.|False
+Surrealizm powstał w starożytnej Grecji.|False
+Architektura romańska słynie z dużych okien i lekkich konstrukcji.|False
+„Pan Tadeusz” został napisany przez Słowackiego.|False
+Minimalizm to styl bogaty w ornamenty.|False
+Symfonia to nazwa krótkiego wiersza.|False
+Rzeźba nie może przedstawiać postaci ludzkiej.|False
+Opera nie zawiera żadnych dialogów ani śpiewu.|False
+Renesans poprzedzał styl romański.|False
+Aktor to osoba pisząca powieści.|False
+Sonet składa się zawsze z 30 wersów.|False
+Mozaika to obraz malowany farbami olejnymi.|False
+Muzyka klasyczna powstała w XXI wieku.|False
+Remiks to kopia obrazu wykonana przez ucznia.|False
+Teatr cieni nie wykorzystuje światła.|False
+Ekspresjonizm skupiał się wyłącznie na przedstawieniach realistycznych.|False
+„Wesele” Wyspiańskiego to opera.|False
+Flet to instrument perkusyjny.|False
+Nadsłuch to technika rzeźbiarska.|False
+Fotografia analogowa nie istniała przed cyfrową.|False
+Makramy to techniki malarskie.|False
+Grafika komputerowa była popularna w średniowieczu.|False
+Kontrapunkt to termin z zakresu architektury.|False
+Afałda to tradycyjny instrument japoński.|False
+Opera trwa zawsze nie dłużej niż 10 minut.|False
+Fresk to rodzaj tkaniny.|False
+Haiku to długi, epicki poemat.|False
+Portret nie może obejmować więcej niż jednej osoby.|False
+Rytm to pojęcie używane tylko w rzeźbie.|False
+Język migowy jest formą sztuki teatralnej.|False
+Monodram to spektakl dla co najmniej pięciu aktorów.|False
+Malarstwo abstrakcyjne zawsze przedstawia realistyczne sceny.|False
+Katedra gotycka nie może mieć witraży.|False
+Notacja muzyczna nie pozwala zanotować rytmu.|False
+„Odyseja” została napisana przez Sofoklesa.|False
+Jazz nie wykorzystuje improwizacji.|False
+Rzeźba z brązu nie wymaga żadnego procesu odlewania.|False
+Operetka jest całkowicie pozbawiona muzyki.|False
+Instrument smyczkowy nie może mieć strun.|False

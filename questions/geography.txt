@@ -1,0 +1,100 @@
+Największą planetą Układu Słonecznego jest Saturn.|False
+Mount Everest znajduje się w Himalajach.|True
+Sahara to największa pustynia gorąca świata.|True
+Amazonka przepływa przez Brazylię.|True
+Australia jest jednocześnie krajem i kontynentem.|True
+Nowa Zelandia leży w Europie.|False
+Sekwana jest najdłuższą rzeką świata.|False
+Polska graniczy z Włochami.|False
+Stolicą Kanady jest Ottawa.|True
+Grenlandia należy do Kanady.|False
+Najwięcej ludności mają Indie.|True
+Szwajcaria ma dostęp do morza.|False
+Kilimandżaro znajduje się w Afryce.|True
+Ocean Arktyczny jest największym oceanem świata.|False
+Meksyk leży w Ameryce Południowej.|False
+Stolicą Japonii jest Tokio.|True
+Hiszpania leży na Półwyspie Iberyjskim.|True
+Islandia leży w Azji.|False
+Morze Czarne graniczy z Polską.|False
+Madagaskar to wyspa u wybrzeży Afryki.|True
+Islandia jest jednym z najmniej zaludnionych krajów Europy.|True
+Mekka znajduje się w Turcji.|False
+Rzeka Huang He leży w Chinach.|True
+Paryż jest stolicą Niemiec.|False
+Część Turcji leży w Europie.|True
+Norwegia graniczy z Rosją.|True
+Sahara leży wyłącznie w Azji.|False
+Australia to najmniejszy kontynent.|True
+Madryt to stolica Portugalii.|False
+Grecja ma dostęp do Morza Egejskiego.|True
+Wyspy Kanaryjskie należą do Hiszpanii.|True
+Morze Martwe znajduje się poniżej poziomu morza.|True
+Kongo jest państwem w Ameryce Południowej.|False
+Korea Południowa leży na Półwyspie Koreańskim.|True
+Islandia ma klimat umiarkowany suchy.|False
+Japonia składa się z kilku głównych wysp.|True
+Maroko leży w Afryce Północnej.|True
+Berlin jest stolicą Austrii.|False
+Kilimandżaro leży w Tanzanii.|True
+Brazylia graniczy z Urugwajem.|True
+Rzeka Ob znajduje się w Afryce.|False
+Islandia nie posiada kolei.|True
+Węgry mają dostęp do morza.|False
+Izrael leży na Bliskim Wschodzie.|True
+Grenlandia leży w Ameryce Północnej.|True
+Islandia graniczy lądem ze Szwecją.|False
+Rzeka Ganges jest ważna religijnie w Indiach.|True
+Kanada ma dłuższą linię brzegową niż Rosja.|True
+Włochy nie mają żadnych aktywnych wulkanów.|False
+Dublin jest stolicą Irlandii.|True
+Egipt leży na dwóch kontynentach.|True
+Szwajcaria ma dostęp do Adriatyku.|False
+Wyspa Borneo jest podzielona między kilka krajów.|True
+Nowa Zelandia leży na półkuli północnej.|False
+Sycylia należy do Grecji.|False
+Wenezuela leży nad Morzem Karaibskim.|True
+Islandia ma wiele gorących źródeł.|True
+Szanghaj jest stolicą Chin.|False
+Iran leży w Azji.|True
+Kostaryka leży w Ameryce Środkowej.|True
+Rzeka Dunaj nie przepływa przez żadne stolice.|False
+Lasy Amazonii znajdują się tylko w Peru.|False
+Etiopia nie ma dostępu do morza.|True
+Belgia graniczy z Luksemburgiem.|True
+Sahara jest największą pustynią świata pod względem powierzchni.|False
+Pakistan leży przy Oceanie Indyjskim.|True
+Madagaskar to wyspa oceaniczna.|True
+Moskwa leży w Azji.|False
+Indonezja składa się z tysięcy wysp.|True
+Islandia leży na Oceanie Spokojnym.|False
+Nigeria jest jednym z najludniejszych państw Afryki.|True
+Korea Północna nie ma żadnych sąsiadów.|False
+Kolumbia leży w Ameryce Południowej.|True
+Islandia to terytorium zależne Danii.|False
+Sri Lanka jest wyspą.|True
+Nowa Gwinea leży w Europie.|False
+Rumunia leży nad Morzem Czarnym.|True
+Boliwia nie ma dostępu do morza.|True
+Islandia jest większa od Francji.|False
+Turcja graniczy z Grecją.|True
+Maroko graniczy z Egiptem.|False
+Bangladesz leży nad Zatoką Bengalską.|True
+Holandia ma część terenu poniżej poziomu morza.|True
+Islandia ma tropikalną roślinność.|False
+Mongolia leży między Rosją a Chinami.|True
+Chile jest długie i wąskie.|True
+Szwecja ma granicę z Hiszpanią.|False
+Islandia ma jedynie jedno miasto.|False
+Korea Południowa leży w Europie.|False
+Egipt ma dostęp tylko do jednego morza.|False
+Kanada leży na półkuli południowej.|False
+Sydney jest stolicą Australii.|False
+Madagaskar znajduje się w Ameryce Północnej.|False
+Pekin leży w Europie.|False
+Sahara pokrywa większość Ameryki Północnej.|False
+Eiger to aktywny wulkan w Szwajcarii.|False
+Francja graniczy z Wielką Brytanią.|False
+Rzeka Missisipi płynie przez Kanadę.|False
+Alpy znajdują się wyłącznie we Francji.|False
+Filipiny leżą w Europie.|False

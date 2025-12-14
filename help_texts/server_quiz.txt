@@ -1,0 +1,4 @@
+Rozpoczyna quiz dla wszystkich użytkowników serwera. Składa się on z 10 pytań, z których na każde jest 15 sekund.
+Zebrane punkty nie zapisują się, ale są widoczne w mini-rankingu na końcu quizu.
+
+**Komenda tylko dla administratorów**

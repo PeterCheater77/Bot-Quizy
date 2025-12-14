@@ -1,0 +1,100 @@
+Python został stworzony przez Guido van Rossuma.|True
+CSS to język programowania.|False
+Java i JavaScript to ten sam język.|False
+SQL służy do zarządzania bazami danych.|True
+HTML to język programowania.|False
+W Pythonie słowo kluczowe 'def' służy do definiowania funkcji.|True
+C++ powstał przed językiem C.|False
+Git jest systemem kontroli wersji oprogramowania.|True
+Java kompiluje się do kodu bajtowego wykonywanego na maszynie wirtualnej.|True
+W HTML nagłówki oznacza się znacznikami <p>.|False
+Python jest językiem silnie typowanym.|True
+Plik README.md jest zwykle napisany w języku Markdown.|True
+Kompilator tłumaczy kod w czasie wykonywania.|False
+Adres IP to unikalny identyfikator urządzenia w sieci.|True
+Framework Flask jest przeznaczony do tworzenia aplikacji mobilnych.|False
+W języku C instrukcja 'printf' służy do wyświetlania tekstu.|True
+W HTML tag <img> służy do wstawiania obrazków.|True
+GitHub to edytor tekstu.|False
+JSON to format przechowywania danych w postaci binarnej.|False
+Kotlin jest językiem uruchamianym na maszynie JVM.|True
+Oprogramowanie open-source ma publicznie dostępny kod źródłowy.|True
+Zapora sieciowa (firewall) może filtrować przychodzący ruch sieciowy.|True
+Dyski SSD używają pamięci flash do przechowywania danych.|True
+Adresy IPv4 składają się z czterech oktetów.|True
+Serwer proxy może buforować zawartość sieciową, by przyspieszyć dostęp.|True
+Uwierzytelnianie dwuskładnikowe (2FA) zwiększa bezpieczeństwo konta.|True
+Kompresja bezstratna pozwala odzyskać pierwotne dane po dekompresji.|True
+Wirtualizacja pozwala uruchamiać wiele systemów operacyjnych na jednym hoście.|True
+System plików FAT32 ma ograniczenie wielkości pojedynczego pliku.|True
+Model klient-serwer to powszechny wzorzec w aplikacjach sieciowych.|True
+Serwer DNS tłumaczy nazwę domeny na adres IP.|True
+Load balancer rozdziela ruch między wiele serwerów.|True
+Szyfrowanie asymetryczne wykorzystuje parę klucz prywatny/klucz publiczny.|True
+Kontenery są lżejsze od maszyn wirtualnych, ponieważ dzielą kernel.|True
+Metoda HTTP GET nie powinna modyfikować zasobu po stronie serwera.|True
+Repozytorium Git przechowuje historię zmian w projekcie.|True
+Indeks bazodanowy może przyspieszyć zapytania SELECT.|True
+Adres IP 0.0.0.0 ma specjalne, nieroutowalne znaczenie.|True
+Nagłówki HTTP przesyłają metadane razem z żądaniem lub odpowiedzią.|True
+Regresja i klasyfikacja to dwa różne typy problemów w uczeniu maszynowym.|True
+Tokenizacja wejścia jest częścią procesu parsowania w kompilatorach.|True
+Metoda POST w HTTP służy często do przesyłania danych do serwera.|True
+Architektura mikroserwisów dzieli aplikację na mniejsze, niezależne usługi.|True
+Pamięć ROM jest zwykle niemodyfikowalna podczas normalnej pracy systemu.|True
+Protokół SMTP jest używany do wysyłania wiadomości e-mail.|True
+Checksum pomaga wykryć błędy transmisji danych.|True
+Klucz prywatny nigdy nie powinien być publicznie ujawniany.|True
+Błąd 404 oznacza, że zasób nie został znaleziony na serwerze.|True
+Technologia NFC pozwala na krótkodystansową komunikację bezprzewodową.|True
+Pamięć podręczna (cache) może poprawić wydajność aplikacji webowej.|True
+Zasada najmniejszych uprawnień ogranicza dostęp użytkowników do niezbędnych zasobów.|True
+Protokół ICMP jest używany do diagnostyki sieci (np. ping).|True
+SSL/TLS używa certyfikatów do ustanawiania zaufania.|True
+Middleware pośredniczy w komunikacji między komponentami aplikacji.|True
+Nagłówki CORS kontrolują dostęp stron do zasobów z innych domen.|True
+Format CSV jest często używany do wymiany prostych tabelarycznych danych.|True
+Benchmarking pozwala porównać wydajność różnych systemów.|True
+Szyfrowanie end-to-end chroni treść komunikacji przed pośrednikami.|True
+Zarządzanie wersjami ułatwia współpracę zespołów programistycznych.|True
+Algorytmy sortowania mają takie same złożoności czasowe.|False
+Każdy plik wykonywalny (.exe) działa natywnie na wszystkich systemach operacyjnych.|False
+Adres IPv6 ma tyle samo oktetów co IPv4.|False
+RAID 0 zapewnia redundancję danych bez straty wydajności.|False
+Systemy RAID nie mogą poprawić dostępności i wydajności dysków.|False
+Każda aplikacja webowa wymaga bazy danych SQL.|False
+Protokół FTP szyfruje domyślnie przesyłane pliki.|False
+Kontenery to synonim procesów systemu operacyjnego i nie mają izolacji.|False
+Wszyscy użytkownicy sieci lokalnej widzą ruch szyfrowany przez HTTPS.|False
+Algorytm sortowania zawsze działa w czasie stałym O(1).|False
+Każdy adres MAC jest globalnie unikalny i nie może zostać zmieniony.|False
+Wszystkie języki programowania obsługują garbage collection.|False
+Programy skompilowane nie wymagają systemu operacyjnego do uruchomienia.|False
+Pamięć RAM przechowuje dane trwale po wyłączeniu zasilania.|False
+Serwery DNS nie mogą być atakowane ani podszywane.|False
+XPath i CSS Selector to to samo.|False
+HTTP/2 usuwa nagłówki HTTP z żądań.|False
+Wszystkie bazy NoSQL nie obsługują zapytań.|False
+Cloud computing oznacza jedynie przechowywanie plików w chmurze.|False
+Każde API musi stosować autoryzację OAuth.|False
+W systemie plików NTFS nie ma możliwości przywracania wersji plików.|False
+Backup przyrostowy zawsze zajmuje więcej miejsca niż backup pełny.|False
+Każde urządzenie IoT automatycznie zapewnia bezpieczne aktualizacje.|False
+Prędkość połączenia internetowego zależy wyłącznie od mocy procesora komputera.|False
+Wszystkie frameworki frontendowe są oparte na JavaScript.|False
+Każdy router domowy ma wbudowany mechanizm antywirusowy.|False
+Szyfrowanie uniemożliwia serwerowi odczytanie zaszyfrowanych żądań.|False
+Wszystkie aplikacje mobilne mają takie same wymagania pamięciowe.|False
+Protokół SSH używa tego samego portu co HTTP domyślnie.|False
+Wszystkie certyfikaty SSL są bezterminowe i nie wygasają.|False
+Pliki tymczasowe (temp) nigdy nie zawierają wrażliwych danych.|False
+Każdy system operacyjny implementuje ten sam model uprawnień.|False
+Microservices zawsze zmniejszają koszty infrastruktury.|False
+Komputery kwantowe mogą natychmiast rozwiązać każdy problem obliczeniowy.|False
+Format JSON wspiera komentarze w standardzie.|False
+Wszystkie protokoły sieciowe zapewniają gwarancję dostarczenia pakietów.|False
+Port 80 domyślnie obsługuje połączenia szyfrowane.|False
+Adres 255.255.255.255 jest adresem hosta routera domowego.|False
+Każdy skrypt wykonywany w przeglądarce jest bezpieczny dla użytkownika.|False
+Wirtualne prywatne sieci (VPN) zawsze gwarantują anonimowość.|False
+Każda aktualizacja oprogramowania jest automatycznie bezpieczna.|False

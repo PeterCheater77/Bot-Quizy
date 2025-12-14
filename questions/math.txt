@@ -1,0 +1,100 @@
+Liczba 0 jest liczbą naturalną.|True
+Jeśli a:b = 2:3, to b = 1,5a.|True
+Wartość π (pi) jest liczbą wymierną.|False
+Pierwiastek kwadratowy z 196 to 13.|False
+Prostokąt zawsze ma kąty proste.|True
+Wartość bezwzględna z -5 jest równa –5.|False
+Jeśli x = 2, to wartość wyrażenia 2x² wynosi 16.|False
+Trójkąt rozwartokątny ma zawsze kąt 90 stopni.|False
+Suma kątów w trójkącie wynosi 180 stopni.|True
+1 nie jest liczbą pierwszą.|True
+Jeśli bok kwadratu zwiększymy dwukrotnie, to jego pole zwiększy się czterokrotnie.|True
+Równanie x² = 9 ma dwa rozwiązania: x = 3 i x = –3.|True
+Pole koła o promieniu r wyraża się wzorem P = 3πr².|False
+Jeśli 20% z jakiejś liczby to 80, to cała liczba to 200.|False
+W trapezie prostokątnym oba kąty przy dłuższej podstawie mają po 90°.|False
+Ułamek 8/12 można skrócić do 2/3.|True
+Dwa kąty ostre mogą mieć razem 200 stopni.|False
+Każdy trapez jest równoległobokiem.|False
+Liczba 2 jest jedyną parzystą liczbą pierwszą.|True
+Wielokąt foremny ma wszystkie boki równe, ale jego kąty mogą być różne.|False
+Liczba -7 jest mniejsza od -3.|True
+Każdy kwadrat jest równoległobokiem.|True
+Liczba 15 jest podzielna przez 3 i 5.|True
+Liczba 7 podniesiona do kwadratu daje 48.|False
+Jeśli dwa kąty są dopełniające, to ich suma wynosi 180°.|False
+Każda liczba całkowita jest liczbą wymierną.|True
+Obwód koła nazywa się obwodem okręgu.|True
+Liczba 0 nie ma odwrotności.|True
+Jeśli x = x to jest to równanie tożsamościowe.|True
+Jeśli dwie proste są równoległe, to przecinają się w dwóch punktach.|False
+Równoległobok o wszystkich kątach prostych to prostokąt.|True
+Sinus 90° wynosi 0.|False
+Liczba 1000 to 10³.|True
+Liczba 0,333… jest liczbą wymierną.|True
+Każdy romb ma wszystkie kąty proste.|False
+Jeśli suma dwóch liczb jest dodatnia, to obie muszą być dodatnie.|False
+Pole kwadratu o boku 12 wynosi 144.|True
+Liczba 49 ma dokładnie trzy dzielniki.|True
+Liczba 17 jest liczbą złożoną.|False
+Jeśli a > b i b > c, to a > c.|True
+Kąt pełny ma 270°.|False
+Wartość 2³ + 2² wynosi 12.|True
+Liczba parzysta zawsze jest podzielna przez 4.|False
+Każde równanie liniowe ma jedno rozwiązanie.|False
+Liczba π ma skończony rozwinięcie dziesiętne.|False
+Kąt prosty ma 90°.|True
+0,5 to inaczej 1/3.|False
+Równanie x + 7 = 12 ma rozwiązanie x = 5.|True
+Liczba 121 jest kwadratem liczby 11.|True
+Każdy trapez ma dwie pary boków równoległych.|False
+Jeśli a·b = 0, to przynajmniej jedno z a lub b jest zerem.|True
+Liczba 8 jest dzielnikiem 64.|True
+Funkcja liniowa zawsze jest rosnąca.|False
+Średnia arytmetyczna liczb 4 i 10 wynosi 6.|False
+Każdy prostopadłościan jest sześcianem.|False
+Wartość 3/4 · 2 to 3/2.|True
+Ułamek 1/3 jest równy 33,(3)%.|False
+Suma kątów wewnętrznych czworokąta wynosi 360°.|True
+Potęga 2⁴ jest równa 24.|False
+Dwusieczna kąta dzieli go na dwie równe części.|True
+Jeśli dwie liczby mają ten sam znak, ich iloczyn jest dodatni.|True
+Liczba 0 jest dodatnia.|False
+Jeśli x = 3, to 2(x+4) = 14.|True
+Liczba 19 jest liczbą pierwszą.|True
+5m² = 500cm²|False
+Wartość 10% z 200 to 30.|False
+Promień jest dwa razy większy niż średnica.|False
+Pięciokąt ma 7 kątów.|False
+Jeśli c = a + b, to trójkąt jest prostokątny.|False
+Liczba 4,5 jest liczbą niewymierną.|False
+Jeśli bok rombu ma długość 5, to jego obwód to 20.|True
+Pole koła to promień pomnożony przez 4.|False
+Jeśli x² = 25, to x musi wynosić tylko 5.|False
+Liczba 36 ma więcej dzielników niż liczba 37.|True
+Każdy wielokąt ma tyle samo boków, co kątów.|True
+Jeśli dwie liczby są równe, to ich różnica wynosi 1.|False
+Kwadrat liczby 0 to nadal 0.|True
+Liczba 1 jest elementem mnożenia neutralnym.|True
+Liczba 2/8 jest większa niż 1/2.|False
+Wszystkie kąty w trójkącie równobocznym mają po 90°.|False
+1 km to 100 000 cm.|True
+Jeśli wykres funkcji rośnie, to jej współczynnik kierunkowy jest dodatni.|True
+Liczba -3 ma wartość bezwzględną 3.|True
+Wartość √15 jest liczbą całkowitą.|False
+14 jest mniejsze od √144.|False
+Każdy graniastosłup ma podstawy równoległe.|True
+Jeśli w trójkącie dwa boki są równe, to jest to trójkąt równoramienny.|True
+0,25 to inaczej 1/2.|False
+Liczba 14 ma 5 dzielników.|False
+Wartość 7·0 wynosi 7.|False
+Liczba 900 jest większa niż 30².|False
+Jeśli x·x = 16, to x = 4 lub -4.|True
+Największą liczbą jednocyfrową jest 9.|True
+Trójkąt może mieć dwa kąty proste.|False
+Liczba 3 jest dzielnikiem 81.|True
+Jeśli suma cyfr liczby jest podzielna przez 3, to sama liczba też.|True
+Wzór na twierdzenie pitagorasa to a² · b² = c².|False
+Każdy równoległobok o równych bokach jest rombem.|True
+Liczby pierwsze mogą być ujemne.|False
+Liczba 5 jest dzielnikiem 45.|True

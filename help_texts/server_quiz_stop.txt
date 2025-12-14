@@ -1,0 +1,3 @@
+Zatrzymuje wszystkie aktywne quizy serwerowe i uniemożliwia startowanie nowego przez 15 sekund.
+
+**Komenda tylko dla administratorów**

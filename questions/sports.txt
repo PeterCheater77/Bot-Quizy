@@ -1,0 +1,100 @@
+Cristiano Ronaldo grał dla Manchester United.|True
+Lionel Messi zdobył Złotą Piłkę w 2021 roku.|True
+Usain Bolt jest rekordzistą świata na 100 metrów.|True
+Michael Phelps wygrał 23 złote medale olimpijskie.|True
+Serena Williams wygrała Wimbledon więcej niż 5 razy.|True
+Roger Federer zdobył 20 tytułów Wielkiego Szlema.|True
+Lewis Hamilton zdobył siedem tytułów mistrza świata F1.|True
+Simone Biles zdobyła złoto olimpijskie w gimnastyce.|True
+Lionel Messi grał w Barcelonie.|True
+Cristiano Ronaldo grał w Realu Madryt.|True
+NBA to liga koszykówki w Stanach Zjednoczonych.|True
+Tour de France odbywa się we Francji.|True
+Rugby pochodzi z Anglii.|True
+Piłka ręczna jest sportem drużynowym.|True
+Siatkówka jest dyscypliną olimpijską.|True
+Boks jest sportem walki.|True
+Hokej na lodzie jest popularny w Kanadzie.|True
+Golf jest sportem indywidualnym.|True
+Koszykówka rozgrywana jest po 5 zawodników w drużynie.|True
+Maraton olimpijski liczy 42,195 km.|True
+Tenis stołowy jest dyscypliną olimpijską.|True
+Baseball jest popularny w Stanach Zjednoczonych.|True
+Puchar Stanleya to trofeum w hokeju na lodzie.|True
+Shaquille O’Neal grał w Los Angeles Lakers.|True
+Michael Jordan grał w Chicago Bulls.|True
+Lionel Messi wygrał Ligę Mistrzów z Barceloną.|True
+Usain Bolt jest sprinterem.|True
+Rugby Sevens to odmiana rugby.|True
+Kolarstwo torowe odbywa się na specjalnym torze.|True
+Formuła 1 rozgrywa wyścigi na torach wyścigowych.|True
+Siatkówka plażowa jest dyscypliną olimpijską.|True
+Kolarstwo górskie jest dyscypliną olimpijską.|True
+Hokej na trawie jest dyscypliną olimpijską.|True
+Rugby Union i Rugby League to różne dyscypliny.|True
+Golf rozgrywa się na polu golfowym.|True
+Pływanie synchroniczne wymaga muzyki.|True
+Maraton odbywa się w różnych miastach na świecie.|True
+Piłka nożna była sportem olimpijskim w 1936 roku.|True
+Bobsleje to dyscyplina zimowa.|True
+Michael Phelps startował w pływaniu.|True
+Michael Jordan zdobył 6 mistrzostw NBA.|True
+Lewis Hamilton startuje w Formule 1.|True
+Roger Federer grał w tenisa przez wiele lat.|True
+Serena Williams była liderką rankingu WTA.|True
+Lionel Messi grał dla reprezentacji Argentyny.|True
+Cristiano Ronaldo pochodzi z Portugalii.|True
+Shaquille O’Neal grał w NBA.|True
+Michael Phelps startował w igrzyskach olimpijskich.|True
+Koszykówka plażowa nie istnieje.|False
+LeBron James zdobył mistrzostwo NBA z Los Angeles Lakers.|True
+Tenis jest sportem indywidualnym.|True
+Lionel Messi grał w Realu Madryt.|False
+Cristiano Ronaldo grał w Barcelonie.|False
+Usain Bolt specjalizuje się w biegach długodystansowych.|False
+Michael Phelps startował w łyżwiarstwie szybkim.|False
+Serena Williams gra w piłkę nożną.|False
+Roger Federer grał w piłkę ręczną.|False
+Lewis Hamilton startuje w Formule E.|False
+Simone Biles jest koszykarką.|False
+Michael Jordan grał w hokeju.|False
+Shaquille O’Neal był zawodnikiem NFL.|False
+FIFA to liga hokeja na lodzie.|False
+Tour de France odbywa się w Niemczech.|False
+Rugby pochodzi z Australii.|False
+Piłka ręczna jest sportem indywidualnym.|False
+Siatkówka nie jest dyscypliną olimpijską.|False
+Boks nie jest sportem walki.|False
+Hokej na lodzie jest popularny w Afryce.|False
+Golf nie jest sportem indywidualnym.|False
+Koszykówka rozgrywana jest po 6 zawodników w drużynie.|False
+Iga Świątek jest mistrzynią Polski w tenisie stołowym.|False
+Tenis stołowy nie jest dyscypliną olimpijską.|False
+Baseball nie jest popularny w USA.|False
+Puchar Stanleya to trofeum w piłce nożnej.|False
+Shaquille O’Neal grał w NFL.|False
+Michael Jordan grał w piłkę ręczną.|False
+Cristiano Ronaldo nigdy nie zdobył Ligi Mistrzów.|False
+Usain Bolt jest koszykarzem.|False
+Rugby Sevens ma 15 zawodników w drużynie.|False
+Kolarstwo torowe odbywa się na ulicy.|False
+Formuła 1 odbywa się wyłącznie w Ameryce Południowej.|False
+Siatkówka plażowa nie jest dyscypliną olimpijską.|False
+Kolarstwo górskie nie jest dyscypliną olimpijską.|False
+Ping-pong i tenis stołowy to dwa inne sporty.|False
+Rugby Union i Rugby League to ta sama dyscyplina.|False
+Golf rozgrywa się w hali sportowej.|False
+Pływanie synchroniczne odbywa się bez muzyki.|False
+Maraton odbywa się tylko w Atenach.|False
+Piłka nożna nigdy nie była sportem olimpijskim.|False
+Bobsleje odbywają się latem.|False
+Michael Phelps startował w gimnastyce.|False
+Usain Bolt grał w hokeju na lodzie.|False
+Lewis Hamilton nie startował w F1.|False
+Roger Federer nigdy nie grał w tenisa.|False
+Serena Williams nigdy nie grała w tenisa.|False
+Lionel Messi gra w hokeja.|False
+Cristiano Ronaldo gra w koszykówkę.|False
+Shaquille O’Neal gra w piłkę ręczną.|False
+Tenis nie jest sportem indywidualnym.|False
+Piłka nożna rozgrywana jest tylko w Europie.|False

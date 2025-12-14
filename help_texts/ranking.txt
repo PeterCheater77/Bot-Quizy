@@ -1,0 +1,9 @@
+**Wyświetla listę 5 najlepszych graczy według punktów rankingowych, rekordów maratonu i speedrunu quizowego oraz ilości zagranych quizów.
+
+Punkty rankingowe zdobywa się za:**
+
+• Poprawne odpowiedzi w quizie rankingowym
+
+• Osiąganie wysokich poziomów w maratonie quizowym
+
+• Wygrywanie zakładów w trybie ryzyko

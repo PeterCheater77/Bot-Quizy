@@ -1,0 +1,14 @@
+**Zmienia cały ranking wybranego użytkownika na wartości, które wybierzesz.
+
+Modyfikować można:**
+
+• Punkty rankingowe
+
+• Rekord maratonu quizowego
+
+• Rekord speedrunu quizowego
+
+• Ilość zagranych quizów
+
+**Komenda tylko dla administratorów**
+**UWAGA - tej operacji nie da się cofnąć**

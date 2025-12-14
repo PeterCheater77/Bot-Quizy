@@ -1,0 +1,100 @@
+Kości czaszki dorosłego człowieka jest 22|True
+DNA oznacza kwas deoksyrybonukleinowy.|True
+Prędkość światła to około 300 000 km/s.|True
+Woda w stanie stałym ma większą objętość niż w stanie ciekłym.|True
+Kwas siarkowy(IV) ma wzór H₂SO₄.|False
+Hel reaguje z wodą tworząc kwas.|False
+Temperatura wrzenia wody w warunkach normalnych to 0°C.|False
+Słońce krąży wokół Ziemi.|False
+Elektrony mają ładunek dodatni.|False
+Czarna dziura to obiekt o bardzo silnym polu grawitacyjnym.|True
+Grawitacja na Księżycu jest słabsza niż na Ziemi.|True
+Komórki roślinne mają ścianę komórkową.|True
+Atom składa się z protonu, neutronu i elektronu.|True
+Tlen jest gazem szlachetnym.|False
+„Mars wykonuje jeden obrót wokół własnej osi w nieco ponad 24 godziny.|True
+Lampa lawowa działa na zasadzie reakcji chemicznej.|False
+Fizyka kwantowa bada zachowanie materii w skali makro.|False
+Albert Einstein sformułował teorię względności.|True
+Fotosynteza zachodzi w mitochondriach.|False
+Neptun jest najbliższą Słońcu planetą.|False
+Człowiekowi do życia potrzebny jest magnez i potas.|True
+Owady oddychają przez tchawki.|True
+Węglowodany są głównym źródłem energii dla organizmu.|True
+Srebro jest lepszym przewodnikiem elektryczności niż miedź.|True
+Jądra komórkowe zawierają chromosomy.|True
+Ozon chroni Ziemię przed promieniowaniem UV.|True
+Krew krąży dzięki pracy serca jako pompy.|True
+W układzie SI jednostką siły jest niuton.|True
+Jowisz ma największe pole magnetyczne w Układzie Słonecznym.|True
+Pluton nie jest uznawany za planetę od 2006 roku.|True
+Komórki krwi powstają w szpiku kostnym.|True
+Elektromagnes działa tylko wtedy, gdy płynie przez niego prąd.|True
+Rekiny mają szkielet zbudowany z chrząstki.|True
+Mięśnie kurczą się dzięki impulsom elektrycznym.|True
+Lizozomy odpowiadają za trawienie wewnątrzkomórkowe.|True
+Woda jest zbudowana z dwóch atomów wodoru i jednego atomu tlenu.|True
+Trzęsienia ziemi wywoływane są ruchem płyt tektonicznych.|True
+Komórki nerwowe przesyłają sygnały chemiczno-elektryczne.|True
+Srebro ma właściwości bakteriobójcze.|True
+Prąd zmienny regularnie zmienia kierunek przepływu.|True
+Światło to fala elektromagnetyczna.|True
+Węgiel jest podstawowym składnikiem związków organicznych.|True
+Dżdżownice napowietrzają glebę.|True
+Koralowce są zwierzętami, a nie roślinami.|True
+Hemoglobina zawiera atom żelaza.|True
+Komety składają się głównie z lodu, pyłu i gazów.|True
+Enzymy przyśpieszają reakcje chemiczne.|True
+Płuca człowieka mają strukturę pęcherzykowatą.|True
+Rdzeń kręgowy jest częścią układu nerwowego.|True
+Wirusy namnażają się tylko w żywych komórkach.|True
+Ślimaki mogą mieć muszle zbudowane z węglanu wapnia.|True
+Fotosfera to widoczna warstwa Słońca.|True
+Szkło powstaje z piasku kwarcowego.|True
+Jądro komety nazywa się nukleusem.|True
+Woda morska jest gęstsza od słodkiej.|True
+Światło białe składa się z wielu barw.|True
+Fale radiowe mogą przenikać przez ściany.|True
+Krzem jest podstawowym materiałem w elektronice.|True
+Układ immunologiczny chroni organizm przed patogenami.|True
+Lód suchy to zestalony dwutlenek węgla.|True
+Krew człowieka jest niebieska, dopóki nie zetknie się z tlenem.|False
+Srebro jest cięższe od ołowiu.|False
+Wszystkie bakterie są szkodliwe dla człowieka.|False
+Ziemia ma stałą temperaturę wewnętrzną.|False
+Woda morska nie zawiera żadnych minerałów.|False
+Ucho ludzkie odbiera fale radiowe.|False
+Komórki zwierzęce mają chloroplasty.|False
+Wulkany powstają wyłącznie na biegunach.|False
+Żelazo jest cieczą w temperaturze pokojowej.|False
+Księżyc świeci własnym światłem.|False
+Wszystkie planety Układu Słonecznego mają pierścienie.|False
+Geny znajdują się tylko w cytoplazmie.|False
+Miedź w ogóle nie przewodzi prądu.|False
+Woda składa się z atomów sodu i chloru.|False
+Ptaki oddychają skrzelami.|False
+Wszystkie metale są magnetyczne.|False
+Hel może łatwo tworzyć stabilne związki chemiczne.|False
+Górna warstwa atmosfery nazywa się troposferą.|False
+Energia nie może zmieniać swojej formy.|False
+Planety krążą wokół Ziemi, a nie Słońca.|False
+Lód suchy jest zamarzniętą wodą.|False
+Wszystkie ryby mają czerwone krew.|False
+Oczy człowieka widzą promieniowanie gamma.|False
+Płytki tektoniczne poruszają się jedynie w dół.|False
+Każdy metal reaguje gwałtownie z wodą.|False
+Temperatura absolutna zero wynosi 0°C.|False
+Neptun jest największą planetą w Układzie Słonecznym.|False
+Chmury składają się z dymu.|False
+Rośliny nie pobierają żadnych minerałów z gleby.|False
+Szkło jest metalem.|False
+Woda jest jednorodnym pierwiastkiem.|False
+Wszystkie wirusy można leczyć antybiotykami.|False
+Ciepło i zimno to substancje fizyczne.|False
+Planety mogą zatrzymać się na orbicie.|False
+Jądro atomowe zawiera elektrony.|False
+Neutron ma dodatni ładunek.|False
+Wszystkie komety pochodzą z powierzchni Marsa.|False
+Tkanka nerwowa składa się wyłącznie z mięśni.|False
+Światło nie może być odbijane przez żadne powierzchnie.|False
+Cień powstaje, gdy światło przechodzi bez przeszkód.|False

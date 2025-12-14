@@ -1,0 +1,11 @@
+**Dostajesz jedno pytanie, widoczne tylko dla Ciebie z wybranej kategorii.
+Punkty rankingowe nie są przyznawane.**
+
+**Kategorie pytań:**
+• programowanie
+• matematyka
+• nauki ścisłe (fizyka, astronomia, biologia, chemia)
+• geografia
+• historia
+• sztuka
+• sport
