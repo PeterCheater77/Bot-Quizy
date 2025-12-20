@@ -1,16 +1,17 @@
 #importowanie bibliotek, funkcji i widoków
-from discord import app_commands as command, Client, Intents, Interaction, Embed, Color, Member, errors
 from asyncio import create_task, sleep
+from discord import app_commands as command, Client, Intents, Interaction, Embed, Color, Member, errors
 
 from quiz_logic import quiz_start, server_quiz
 from views import CategoryQuestionView, DailyQuestionView
-from functions import TOKEN, global_cooldown, set_category, ranking_embed, reset_risk_uses, set_ranking, get_player_info, help_embed, daily_question
+from functions import (TOKEN, global_cooldown, reset_risk_uses, set_category, daily_question, ranking_embed, set_ranking,
+                       get_player_info, help_embed)
 import state as st
 
 ######################################################################################
 
 #ustawienia bota
-class aclient(Client):
+class AClient(Client):
     def __init__(self):
         intents = Intents.default()
         intents.message_content = True
@@ -31,7 +32,7 @@ class aclient(Client):
         client.risk_task_started = True
         create_task(reset_risk_uses_loop())
 
-client = aclient()
+client = AClient()
 tree = command.CommandTree(client)
 Choice = command.Choice
 
@@ -123,22 +124,22 @@ async def ranking(interaction: Interaction):
 #modyfikowanie rankingu wybranego gracza
 @tree.command(name="ranking-ustaw", description="Zmienia cały ranking wybranego użytkownika na wartości, które wybierzesz")
 @command.describe(uzytkownik="Wybierz użytkownika, którego ranking chcesz zmienić",
-                  punkty="Ile punktów rankingowych ma mieć użytkownik?",
-                  maraton="Jaki rekord maratonu quizowego ma mieć użytkownik?",
-                  speedrun="Jaki rekord speedrunu quizowego ma mieć użytkownik?",
-                  quizy="W ile quizów gracz zagrał?")
+                  punkty="Wartość punktów rankingowych",
+                  rekord_maratonu="Wartość rekordu maratonu quizowego",
+                  rekord_speedrunu="Wartość rekordu speedrunu quizowego",
+                  zagrane_quizy="Ilość zagranych przez użytkownika quizów")
 @command.default_permissions(manage_guild=True)
 @global_cooldown()
 
 async def set_ranking_command(interaction: Interaction, uzytkownik: Member,
-                      punkty: int = None, maraton: int = None, speedrun: int = None, quizy: int = None):
+                      punkty: int = None, rekord_maratonu: int = None, rekord_speedrunu: int = None, zagrane_quizy: int = None):
 
     changes, embed, old_values = set_ranking(
         user_id=uzytkownik.id,
         points_value=punkty,
-        marathon_value=maraton,
-        speedrun_value=speedrun,
-        quizzes_value=quizy)
+        marathon_value=rekord_maratonu,
+        speedrun_value=rekord_speedrunu,
+        quizzes_value=zagrane_quizy)
 
     #gracz nie istnieje w bazie lub użytkownik, używający komendy, nie wpisał żadnej wartości
     if changes is None or changes == "nothing":
@@ -195,14 +196,14 @@ async def player_info(interaction: Interaction, uzytkownik: Member):
 @tree.command(name="pomoc", description="Pokazuje informacje o wszystkich komendach lub o wybranej komendzie")
 @command.describe(komenda="Wybierz komendę, o której chcesz się czegoś dowiedzieć")
 @command.choices(komenda=[
-    Choice(name="quiz", value="quiz"),
-    Choice(name="pytanie-kategoria", value="category_question"),
-    Choice(name="pytanie-dzienne", value="daily_question"),
-    Choice(name="gracz-info", value="player_info"),
-    Choice(name="ranking", value="ranking"),
-    Choice(name="ranking-ustaw", value="set_ranking"),
-    Choice(name="quiz-serwerowy", value="server_quiz"),
-    Choice(name="quiz-serwerowy-stop", value="server_quiz_stop")])
+    Choice(name="/quiz", value="quiz"),
+    Choice(name="/pytanie-kategoria", value="category_question"),
+    Choice(name="/pytanie-dzienne", value="daily_question"),
+    Choice(name="/gracz-info", value="player_info"),
+    Choice(name="/ranking", value="ranking"),
+    Choice(name="/ranking-ustaw", value="set_ranking"),
+    Choice(name="/quiz-serwerowy", value="server_quiz"),
+    Choice(name="/quiz-serwerowy-stop", value="server_quiz_stop")])
 @global_cooldown()
 
 async def help_command(interaction: Interaction, komenda: Choice[str] = None):

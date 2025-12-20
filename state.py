@@ -1,4 +1,4 @@
-#zmienne i dzienniki
+#zmienne i dzienniki dla quizów
 cooldowns = {}
 active_quizzes = {}
 ranked_streaks = {}

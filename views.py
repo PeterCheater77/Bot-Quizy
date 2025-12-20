@@ -1,6 +1,6 @@
 #importowanie bibliotek i funkcji
-from discord import Interaction, Embed, Color, ui, ButtonStyle
 from asyncio import sleep
+from discord import Interaction, Embed, Color, ui, ButtonStyle
 
 from functions import get_value, set_value, get_today
 import state as st

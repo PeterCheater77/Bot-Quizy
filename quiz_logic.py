@@ -1,6 +1,6 @@
 #importowanie bibliotek, funkcji i widoków
-from discord import Interaction, Embed, Color, AllowedMentions
 from asyncio import create_task, sleep
+from discord import Interaction, Embed, Color, AllowedMentions
 
 from views import RankedQuizView, MarathonQuizView, SpeedrunQuizView, RiskQuizView, RiskQuizBetsView, ServerQuizView
 from functions import random_question, get_value, set_value
@@ -48,7 +48,10 @@ async def quiz_start(interaction: Interaction, chosen_mode: str):
 async def ranked_quiz(interaction: Interaction):
     st.ranked_streaks[interaction.user.id] = 0
     embed = Embed(
-        description="**Quiz rankingowy** za chwilę się rozpocznie!\nSkłada się z 10 pytań, z których na każde masz równo 10 sekund.\nZebrane punkty zapisują się pod /ranking.\nPrzygotuj się!",
+        description="**Quiz rankingowy** za chwilę się rozpocznie!\n"
+                    "Składa się z 10 pytań, z których na każde masz równo 10 sekund.\n"
+                    "Zebrane punkty zapisują się pod /ranking.\n"
+                    "Przygotuj się!",
         color=Color.from_str("#ff7b00"))
     await interaction.response.send_message(embed=embed, ephemeral=True)
     await sleep(5)
@@ -79,23 +82,26 @@ async def ranked_quiz(interaction: Interaction):
 #maraton quizowy
 async def marathon_quiz(interaction: Interaction):
     embed = Embed(
-        description="**Maraton quizowy** za chwilę się rozpocznie!\nOdpowiadaj tak długo, aż się pomylisz!\nMasz 15 sekund na każdą odpowiedź.\nPrzygotuj się!",
+        description="**Maraton quizowy** za chwilę się rozpocznie!\n"
+                    "Odpowiadaj tak długo, aż się pomylisz!\n"
+                    "Masz 15 sekund na każdą odpowiedź.\n"
+                    "Przygotuj się!",
         color=Color.from_str("#3160ad"))
     await interaction.response.send_message(embed=embed, ephemeral=True)
     await sleep(5)
-    await next_marathon_question(interaction, 1)
+    await next_marathon_question(interaction)
 
 
 #przechodzenie do kolejnego poziomu maratonu quizowego
-async def next_marathon_question(interaction: Interaction, wave: int):
+async def next_marathon_question(interaction: Interaction, current_wave: int = 1):
     #losowanie i wysyłanie pytania
     question, correct_answer = random_question()
     embed = Embed(
-        title=f"🤔 **Pytanie {wave}**",
+        title=f"🤔 **Pytanie {current_wave}**",
         description=f"{question}\n\n"
                     f"Kliknij odpowiedź poniżej (masz 15 sekund):",
         color=Color.from_str("#ffb900"))
-    await interaction.followup.send(embed=embed, view=MarathonQuizView(correct_answer, interaction, wave), ephemeral=True)
+    await interaction.followup.send(embed=embed, view=MarathonQuizView(correct_answer, interaction, current_wave), ephemeral=True)
 
 
 
@@ -103,7 +109,9 @@ async def next_marathon_question(interaction: Interaction, wave: int):
 async def speedrun_quiz(interaction: Interaction):
     st.speedrun_streaks[interaction.user.id] = 0
     embed = Embed(
-        description="**Speedrun quizowy** za chwilę się rozpocznie!\nMasz 60 sekund, aby odpowiedzieć na jak najwięcej pytań!\nPrzygotuj się!",
+        description="**Speedrun quizowy** za chwilę się rozpocznie!\n"
+                    "Masz 60 sekund, aby odpowiedzieć na jak najwięcej pytań!\n"
+                    "Przygotuj się!",
         color=Color.from_str("#b587ff"))
     await interaction.response.send_message(embed=embed, ephemeral=True)
     await sleep(5)
@@ -210,7 +218,8 @@ async def risk_quiz(interaction: Interaction, bet: int):
         st.active_quizzes[interaction.user.id] = False
         embed = Embed(
             title="🥳 Gratulacje!",
-            description=f"Odpowiedziałeś/aś poprawnie na 10 pytań!\nWygrywasz: **{bet} punktów rankingowych**.",
+            description=f"Odpowiedziałeś/aś poprawnie na 10 pytań!\n"
+                        f"Wygrywasz: **{bet} punktów rankingowych**.",
             color=Color.from_str("#9fff5e"))
         await interaction.followup.send(embed=embed, ephemeral=True)
 
@@ -234,7 +243,9 @@ async def server_quiz(interaction: Interaction):
             color=Color.from_str("#7df0ec"))
 
         embed2 = Embed(
-            description=f"@everyone **Quiz serwerowy za chwilę się rozpocznie!**\nSkłada się z 10 pytań, z których na każde macie 15 sekund.\nPrzygotujcie się!",
+            description=f"@everyone **Quiz serwerowy za chwilę się rozpocznie!**\n"
+                        f"Składa się z 10 pytań, z których na każde macie 15 sekund.\n"
+                        f"Przygotujcie się!",
             color=Color.from_str("#159995"))
         await interaction.response.send_message(embed=embed1, ephemeral=True)
         await interaction.channel.send(allowed_mentions=AllowedMentions(everyone=True), embed=embed2, delete_after=15)

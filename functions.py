@@ -1,14 +1,14 @@
 #importowanie bibliotek i funkcji
+from datetime import datetime, timedelta
+from discord import Interaction, Embed, Color
+from dotenv import load_dotenv
+from functools import wraps
+from os import getenv
+from random import choice
 from sqlite3 import connect, OperationalError, Error
 from threading import RLock
-from traceback import print_exc
 from time import time
-from functools import wraps
-from discord import Interaction, Embed, Color
-from os import getenv
-from dotenv import load_dotenv
-from random import choice
-from datetime import datetime, timedelta
+from traceback import print_exc
 from zoneinfo import ZoneInfo
 
 import state as st
@@ -45,6 +45,7 @@ except OperationalError:
 
 #zabezpieczenie funkcji działających na bazie danych
 def sqlite_safe(func):
+    @wraps(func)
     def wrapper(*args, **kwargs):
         with sql_lock:
             try:
@@ -159,11 +160,6 @@ def load_questions(file):
                     continue
                 parts = line.strip().split("|", 1)
 
-                #jest więcej niż jeden separator w linijce
-                if len(parts) != 2:
-                    print(f"[BŁĄD] Niepoprawny format w pliku {file}: {line}")
-                    continue
-
                 question, answer = parts
                 questions.append((question.strip(), answer.strip().lower() == "true"))
 
@@ -182,10 +178,18 @@ questions_sports = load_questions("questions/sports.txt")
 
 
 #losowanie pytania i kategorii
-def random_question(category: str = None):
+def random_question(category: list = None):
+    #kategoria pytania nie została podana
     if category is None:
-        category = choice([questions_programming, questions_history, questions_geography,
-                           questions_science, questions_math, questions_arts, questions_sports])
+        category = choice([
+            questions_programming,
+            questions_history,
+            questions_geography,
+            questions_science,
+            questions_math,
+            questions_arts,
+            questions_sports])
+
     question, correct_answer = choice(category)
     return question, correct_answer
 
@@ -215,7 +219,7 @@ def set_category(chosen_category: str):
     question, correct_answer = random_question(category)
 
     return correct_answer, Embed(
-        title=f"🧐 **Pytanie z kategorii: *{name}***",
+        title=f"🧐 **Pytanie z kategorii: {name}**",
         description=f"{question}\n\n"
                     f"Kliknij odpowiedź poniżej:",
         color=Color.from_str("#ffdd00"))
@@ -335,7 +339,6 @@ def ranking_embed():
     else:
         top_quizzes = f"{long_line}\nBrak danych..."
 
-
     return Embed(
         title="**🏆 Ranking Top 5:**",
         description=f"**💎 Punkty rankingowe:**\n"
@@ -413,8 +416,9 @@ def load_help_texts(file):
         print(f"[BŁĄD] Nie znaleziono pliku: {file}")
 
 
-#wysyłanie embedów do /pomoc
+#wysyłanie embedów dla /pomoc
 def help_embed(help_value: str, command_name: str):
+    #pobieranie opisów komend
     help_all = load_help_texts("help_texts/all.txt")
     help_quiz = load_help_texts("help_texts/quiz.txt")
     help_category_question = load_help_texts("help_texts/category_question.txt")
@@ -470,6 +474,6 @@ def help_embed(help_value: str, command_name: str):
         color=Color.from_str("#961212"))
 
     return Embed(
-        title=f"**Komenda /{command_name}{command_choices}**:",
+        title=f"**Komenda {command_name}{command_choices}**:",
         description=help_text,
         color=Color.from_str("#1fff9d"))
