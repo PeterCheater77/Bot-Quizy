@@ -196,7 +196,7 @@ async def risk_quiz_bets(interaction: Interaction):
 async def risk_quiz(interaction: Interaction, bet: int):
     set_value(interaction.user.id, played_quizzes=+1)
     set_value(interaction.user.id, risk_uses=+1)
-    risk_data = {"correct_count": 0, "active": True}
+    risk_data = {"correct_count": 0, "question_active": True}
 
     #losowanie i wysyłanie pytania
     for i in range(10):
@@ -209,7 +209,7 @@ async def risk_quiz(interaction: Interaction, bet: int):
         await interaction.followup.send(embed=embed, view=RiskQuizView(answer, interaction, bet, risk_data), ephemeral=True)
         await sleep(10)
 
-        if not st.active_quizzes.get(interaction.user.id, False) or not risk_data["active"]:
+        if not st.active_quizzes.get(interaction.user.id, False) or not risk_data["question_active"]:
             return
 
     #gracz wygrał zakład

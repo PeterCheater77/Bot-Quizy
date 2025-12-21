@@ -363,7 +363,7 @@ class RiskQuizView(BaseQuizView):
         if self.answered:
             return
 
-        self.risk_data["active"] = False
+        self.risk_data["question_active"] = False
         st.active_quizzes[self.user.id] = False
         set_value(self.user.id, points=-self.bet)
         self.stop()
@@ -389,7 +389,7 @@ class RiskQuizView(BaseQuizView):
 
         #gracz odpowiedział niepoprawnie
         else:
-            self.risk_data["active"] = False
+            self.risk_data["question_active"] = False
             st.active_quizzes[self.user.id] = False
             set_value(self.user.id, points=-self.bet)
             self.stop()
